@@ -58,7 +58,22 @@ spring:
         naming-load-cache-at-start: false
         username: nacos
         password: nacos
-
+  openfeign:
+    client:
+      default-config:
+      config:
+        coupon-template-feign-client:
+          connectTimeout: 2000
+          readTimeout: 3000
+          loggerLevel: full
+        coupon-calculation-feign-client:
+          connectTimeout: 2000
+          readTimeout: 3000
+          loggerLevel: full
 logging:
   level:
     com.litao.coupon: debug
+    com.litao.coupon.customer.feign.TemplateService: debug
+    com.litao.coupon.customer.feign.CalculationService: debug
+
+

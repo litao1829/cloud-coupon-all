@@ -61,4 +61,4 @@ spring:
 
 logging:
   level:
-    top.mqxu.coupon: debug
+    com.litao.coupon: debug
