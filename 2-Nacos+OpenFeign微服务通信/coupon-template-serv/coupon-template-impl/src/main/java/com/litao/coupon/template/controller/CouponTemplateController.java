@@ -6,6 +6,7 @@ import com.litao.coupon.template.api.beans.TemplateSearchParams;
 import com.litao.coupon.template.service.CouponTemplateService;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
+import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -67,6 +68,7 @@ public class CouponTemplateController {
     @GetMapping("/getBatch")
     public Map<Long, CouponTemplateInfo> getTemplateInBatch(@RequestParam("ids") Collection<Long> ids) {
         log.info("getTemplateInBatch: {}", JSON.toJSONString(ids));
+        log.info("getTemplateInBatch被调用");
         return couponTemplateService.getTemplateInfoMap(ids);
     }
 
