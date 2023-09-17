@@ -1,0 +1,4 @@
+com\litao\coupon\customer\dao\CouponDao.class
+com\litao\coupon\customer\dao\converter\CouponStatusConverter.class
+com\litao\coupon\customer\dao\entity\Coupon$CouponBuilder.class
+com\litao\coupon\customer\dao\entity\Coupon.class

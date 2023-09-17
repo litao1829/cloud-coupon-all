@@ -1,0 +1,4 @@
+com\litao\coupon\calculation\api\beans\Product.class
+com\litao\coupon\calculation\api\beans\ShoppingCart.class
+com\litao\coupon\calculation\api\beans\SimulationResponse.class
+com\litao\coupon\calculation\api\beans\SimulationOrder.class
