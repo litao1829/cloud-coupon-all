@@ -1,0 +1,13 @@
+com\litao\coupon\customer\service\CouponCustomerService.class
+com\litao\coupon\customer\feign\fallback\TemplateServiceFallbackFactory.class
+com\litao\coupon\customer\feign\TemplateService.class
+com\litao\coupon\customer\service\impl\CouponCustomerServiceImpl.class
+com\litao\coupon\customer\loadbalance\NacosLoadBalancerConfig.class
+com\litao\coupon\customer\converter\CouponConverter.class
+com\litao\coupon\customer\loadbalance\NacosWeightRandomLoadBalancer.class
+com\litao\coupon\customer\controller\CouponCustomerController.class
+com\litao\coupon\customer\Configration.class
+com\litao\coupon\customer\feign\fallback\TemplateServiceFallback.class
+com\litao\coupon\customer\feign\CalculationService.class
+com\litao\coupon\customer\CustomerApplication.class
+com\litao\coupon\customer\feign\fallback\TemplateServiceFallbackFactory$1.class

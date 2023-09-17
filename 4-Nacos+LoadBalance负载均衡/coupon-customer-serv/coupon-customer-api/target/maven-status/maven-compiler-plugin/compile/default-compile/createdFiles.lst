@@ -1,0 +1,3 @@
+com\litao\coupon\customer\api\beans\SearchCoupon.class
+com\litao\coupon\customer\api\beans\RequestCoupon.class
+com\litao\coupon\customer\api\enums\CouponStatus.class
