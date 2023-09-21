@@ -1,0 +1,12 @@
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\CalculationApplication.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\AbstractRuleTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\CouponTemplateFactory.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\controller\CouponCalculationController.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\impl\MoneyOffTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\RuleTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\impl\RandomReductionTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\impl\DiscountTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\impl\NightTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\service\CouponCalculationService.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\template\impl\DummyTemplate.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-calculation-serv\coupon-calculation-impl\src\main\java\com\litao\coupon\calculation\service\impl\CouponCalculationServiceImpl.java

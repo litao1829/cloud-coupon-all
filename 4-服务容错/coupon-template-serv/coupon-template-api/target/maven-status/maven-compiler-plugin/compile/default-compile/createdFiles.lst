@@ -1,0 +1,11 @@
+com\litao\coupon\template\api\beans\rules\Discount.class
+com\litao\coupon\template\api\beans\CouponTemplateInfo.class
+com\litao\coupon\template\api\beans\rules\TemplateRule.class
+com\litao\coupon\template\api\enums\CouponType.class
+com\litao\coupon\template\api\beans\CouponInfo.class
+com\litao\coupon\template\api\beans\PagedCouponTemplateInfo$PagedCouponTemplateInfoBuilder.class
+com\litao\coupon\template\api\beans\TemplateSearchParams$TemplateSearchParamsBuilder.class
+com\litao\coupon\template\api\beans\CouponTemplateInfo$CouponTemplateInfoBuilder.class
+com\litao\coupon\template\api\beans\PagedCouponTemplateInfo.class
+com\litao\coupon\template\api\beans\TemplateSearchParams.class
+com\litao\coupon\template\api\beans\CouponInfo$CouponInfoBuilder.class
