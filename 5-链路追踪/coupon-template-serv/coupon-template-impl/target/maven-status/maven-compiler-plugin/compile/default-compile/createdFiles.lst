@@ -1,0 +1,5 @@
+com\litao\coupon\template\service\impl\CouponTemplateServiceImpl.class
+com\litao\coupon\template\controller\CouponTemplateController.class
+com\litao\coupon\template\converter\CouponTemplateConverter.class
+com\litao\coupon\template\TemplateApplication.class
+com\litao\coupon\template\service\CouponTemplateService.class

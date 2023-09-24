@@ -76,7 +76,7 @@ public class NacosWeightRandomLoadBalancer implements ReactorServiceInstanceLoad
         }
 
         Chooser<String, ServiceInstance> instanceChooser = new Chooser<>(
-                "top.mqxu");
+                "com.litao");
 
         List<Pair<ServiceInstance>> hostsWithWeight = serviceInstances.stream()
                 .map(serviceInstance -> new Pair<>(serviceInstance,

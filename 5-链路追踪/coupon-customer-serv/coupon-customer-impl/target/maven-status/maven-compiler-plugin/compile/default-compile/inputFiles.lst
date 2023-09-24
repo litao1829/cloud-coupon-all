@@ -1,0 +1,12 @@
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\Configration.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\feign\TemplateService.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\feign\fallback\TemplateServiceFallback.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\feign\fallback\TemplateServiceFallbackFactory.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\loadbalance\NacosLoadBalancerConfig.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\service\impl\CouponCustomerServiceImpl.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\CustomerApplication.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\controller\CouponCustomerController.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\converter\CouponConverter.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\loadbalance\NacosWeightRandomLoadBalancer.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\service\CouponCustomerService.java
+C:\Users\Acer\Desktop\cloud-coupon\2-Nacos+OpenFeign微服务通信\coupon-customer-serv\coupon-customer-impl\src\main\java\com\litao\coupon\customer\feign\CalculationService.java

@@ -35,6 +35,16 @@ spring:
       transport:
         port: 8719
         dashboard: localhost:8080
+      datasource:
+        litao-flow:
+          nacos:
+            server-addr: localhost:8848
+            namespace: dev
+            groupId: SENTINEL_GROUP
+            dataId: ${spring.application.name}-flow-rules
+            rule-type: flow
+            username: nacos
+            password: nacos
 
 logging:
   level:

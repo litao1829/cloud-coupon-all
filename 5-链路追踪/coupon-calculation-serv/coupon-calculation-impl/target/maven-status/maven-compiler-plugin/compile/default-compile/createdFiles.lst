@@ -1,0 +1,13 @@
+com\litao\coupon\calculation\template\CouponTemplateFactory$1.class
+com\litao\coupon\calculation\template\impl\DiscountTemplate.class
+com\litao\coupon\calculation\template\impl\RandomReductionTemplate.class
+com\litao\coupon\calculation\service\CouponCalculationService.class
+com\litao\coupon\calculation\template\CouponTemplateFactory.class
+com\litao\coupon\calculation\template\AbstractRuleTemplate.class
+com\litao\coupon\calculation\template\impl\MoneyOffTemplate.class
+com\litao\coupon\calculation\template\impl\NightTemplate.class
+com\litao\coupon\calculation\controller\CouponCalculationController.class
+com\litao\coupon\calculation\CalculationApplication.class
+com\litao\coupon\calculation\service\impl\CouponCalculationServiceImpl.class
+com\litao\coupon\calculation\template\impl\DummyTemplate.class
+com\litao\coupon\calculation\template\RuleTemplate.class

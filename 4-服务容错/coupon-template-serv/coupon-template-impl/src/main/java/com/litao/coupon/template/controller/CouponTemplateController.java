@@ -14,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -75,14 +76,42 @@ public class CouponTemplateController {
     public Map<Long, CouponTemplateInfo> getTemplateInBatch(@RequestParam("ids") Collection<Long> ids) {
         log.info("getTemplateInBatch: {}", JSON.toJSONString(ids));
         log.info("getTemplateInBatch被调用");
+//        if(ids.size()==3){
+//            throw  new RuntimeException();
+//        }
+//        try {
+//            log.info("线程休眠开始");
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
         return couponTemplateService.getTemplateInfoMap(ids);
     }
 
     public Map<Long,CouponTemplateInfo> getTemplateInBatchBlock(Collection<Long>ids, BlockException exception){
         log.info("接口被限流");
-        log.info(ids.toString());
-        log.info(exception.getMessage());
-        return Maps.newHashMap();
+        CouponTemplateInfo couponTemplateInfo=CouponTemplateInfo.builder()
+                .name("限流后返回的优惠券")
+                .desc("限流后返回的优惠券")
+                .type("1")
+                .rule(null)
+                .build();
+        Map<Long,CouponTemplateInfo> map=new HashMap<>();
+        map.put(1L,couponTemplateInfo);
+        return map;
+    }
+
+    public Map<Long,CouponTemplateInfo> getTemplateInBatchFallback(Collection<Long> ids){
+        log.info("批量查询优惠券模板接口被降级");
+        CouponTemplateInfo couponTemplateInfo=CouponTemplateInfo.builder()
+                .name("降级后返回的优惠券")
+                .desc("降级后返回的优惠券")
+                .type("1")
+                .rule(null)
+                .build();
+        Map<Long,CouponTemplateInfo> map=new HashMap<>();
+        map.put(1L,couponTemplateInfo);
+        return map;
     }
 
     /**
