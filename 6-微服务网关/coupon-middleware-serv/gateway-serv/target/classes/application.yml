@@ -1,0 +1,23 @@
+server:
+  port: 30000
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        serv-addr: 127.0.0.1:8848
+        heart-beat-interval: 5000
+        heart-beat-timeout: 15000
+        namespace: dev
+        group: myGroup
+        username: nacos
+        password: nacos
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+      scg:
+        fallback:
+          mode: response
+          response-status: 500
+          response-body: '{"code":500,"msg":"网关流量超量"}'
