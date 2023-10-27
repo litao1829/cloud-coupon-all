@@ -72,19 +72,21 @@ public class CouponTemplateController {
      * @return {@link Map<Long, CouponTemplateInfo>}
      */
     @GetMapping("/getBatch")
-    @SentinelResource(value = "getTemplateInBatch",blockHandler = "getTemplateInBatchBlock")
+        @SentinelResource(value = "getTemplateInBatch",
+            blockHandler = "getTemplateInBatchBlock",
+            fallback = "getTemplateInBatchFallback")
     public Map<Long, CouponTemplateInfo> getTemplateInBatch(@RequestParam("ids") Collection<Long> ids) {
         log.info("getTemplateInBatch: {}", JSON.toJSONString(ids));
         log.info("getTemplateInBatch被调用");
 //        if(ids.size()==3){
 //            throw  new RuntimeException();
 //        }
-//        try {
-//            log.info("线程休眠开始");
-//            Thread.sleep(1000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+        try {
+            log.info("线程休眠开始");
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         return couponTemplateService.getTemplateInfoMap(ids);
     }
 
